@@ -3,7 +3,7 @@ Author: Kurewe
 
 Web: https://cantankerousoldgoats.enjin.com/
 
-I've put together a Vanilla+ Lythium Mission pbo for your pleasure.
+I've put together some Vanilla+ Lythium Mission files for your pleasure.
 Even though it isn't strictly Vanilla, I did try to keep the extras useful and easily configurable/changeable.
 
  - 60 player slots

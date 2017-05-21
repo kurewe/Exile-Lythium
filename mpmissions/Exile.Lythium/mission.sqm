@@ -1,0 +1,1927 @@
+version = 53;
+class EditorData
+{
+	moveGridStep = 1.0;
+	angleGridStep = 0.2617994;
+	scaleGridStep = 1.0;
+	autoGroupingDist = 10.0;
+	toggles = 1;
+	class ItemIDProvider
+	{
+		nextID = 159;
+	};
+	class MarkerIDProvider
+	{
+		nextID = 59;
+	};
+	class Camera
+	{
+		pos[] = {21.421392,143.60165,61.125942};
+		dir[] = {-0.060166199,-0.15985386,-0.98535877};
+		up[] = {-0.0097490065,0.98712474,-0.15966062};
+		aside[] = {-0.99819082,2.2482527e-007,0.060949549};
+	};
+};
+addons[] = {"exile_client","A3_Characters_F","A3_Ui_F","A3_Structures_F_Ind_FuelStation"};
+class AddonsMetaData
+{
+	class List
+	{
+		items = 4;
+		class Item0
+		{
+			className = "exile_client";
+			name = "exile_client";
+			author = "Exile Mod";
+			url = "http://www.exilemod.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className = "A3_Ui_F";
+			name = "Arma 3 - User Interface";
+			author = "Bohemia Interactive";
+			url = "http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_Ind";
+			name="Arma 3 - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed = 12638934;
+class ScenarioData
+{
+	author = "Kurewe - Cantankerous Old Goats [COG]";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.30000001;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2039;
+		month = 6;
+		day = 24;
+		hour = 12;
+		minute = 0;
+		startFogBase = 5.0;
+		forecastFogBase = 5.0;
+		startFogDecay = 0.014;
+		forecastFogDecay = 0.014;
+	};
+	class Entities
+	{
+		items = 59;
+
+		class Item0
+		{
+			dataType = "Group";
+			side = "Independent";
+			class Entities
+			{
+				items = 60;
+				class Item0
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,36.050003};
+					};
+					side = "Independent";
+					flags = 7;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 1;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item1
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 2;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item2
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 3;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item3
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 4;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item4
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98943,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 5;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item5
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.99542,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 6;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item6
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,141.00143,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 7;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item7
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,141.00143,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 8;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item8
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,141.00143,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 9;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item9
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,141.00143,36.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 10;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item10
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 11;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item11
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 12;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item12
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 13;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item13
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 14;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item14
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98943,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 15;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item15
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.99243,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 16;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item16
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,140.99243,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 17;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item17
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,140.99243,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 18;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item18
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,140.99243,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 19;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item19
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,140.99243,33.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 20;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item20
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 21;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item21
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 22;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item22
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 23;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item23
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 24;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item24
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 25;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item25
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 26;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item26
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 27;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item27
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 28;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item28
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,140.98343,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 29;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item29
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,140.98943,30.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 30;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item30
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 31;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item31
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 32;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item32
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 33;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item33
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 34;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item34
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 35;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item35
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 36;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item36
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 37;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item37
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 38;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item38
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,140.98343,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 39;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item39
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,140.98943,27.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 40;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item40
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 41;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item41
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 42;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item42
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 43;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item43
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 44;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item44
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 45;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item45
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 46;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item46
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 47;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item47
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 48;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item48
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,140.98343,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 49;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item49
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,140.98943,24.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 50;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item50
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {26,140.96542,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 51;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item51
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {24,140.97144,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 52;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item52
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {22,140.97743,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 53;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item53
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {20,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 54;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item54
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {18,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 55;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item55
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {16,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 56;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item56
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {14,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 57;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item57
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {12,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 58;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item58
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {10,140.98343,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 59;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item59
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {8,140.98943,21.050003};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes
+					{
+						skill = 0.60000002;
+						isPlayable = 1;
+					};
+					id = 60;
+					type = "Exile_Unit_GhostPlayer";
+				};
+			};
+			class Attributes{};
+			id = 100;
+		};
+		class Item1
+		{
+			dataType = "Marker";
+			position[] = {1319.68, 0, 14240.4};
+			name = "SpawnMayankel";
+			text = "Mayankel";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 101;
+			atlOffset = 0;
+		};
+		class Item2
+		{
+			dataType = "Marker";
+			position[] = {1319.68, 0, 14240.4};
+			name = "MayankelSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 102;
+			atlOffset = 0;
+		};
+		class Item3
+		{
+			dataType = "Marker";
+			position[] = {7353.87, 0, 4292.14};
+			name = "SpawnAmir";
+			text = "Amir";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 103;
+			atlOffset = 0;
+		};
+		class Item4
+		{
+			dataType = "Marker";
+			position[] = {7353.87, 0, 4292.14};
+			name = "AmirSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 104;
+			atlOffset = 0;
+		};
+		class Item5
+		{
+			dataType = "Marker";
+			position[] = {17254.1, 0, 2708.77};
+			name = "SpawnOffar";
+			text = "Offar";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 105;
+			atlOffset = 0;
+		};
+		class Item6
+		{
+			dataType = "Marker";
+			position[] = {17254.1, 0, 2708.77};
+			name = "OffarSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 106;
+			atlOffset = 0;
+		};
+		class Item7
+		{
+			dataType = "Marker";
+			position[] = {10398, 0, 10760.9};
+			name = "SpawnLimari";
+			text = "Limari";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 107;
+			atlOffset = 0;
+		};
+		class Item8
+		{
+			dataType = "Marker";
+			position[] = {10398, 0, 10760.9};
+			name = "LimariSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 108;
+			atlOffset = 0;
+		};
+		class Item9
+		{
+			dataType = "Marker";
+			position[] = {17066.6, 0, 9724.17};
+			name = "SpawnRazbula";
+			text = "Razbula";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 109;
+			atlOffset = 0;
+		};
+		class Item10
+		{
+			dataType = "Marker";
+			position[] = {17066.6, 0, 9724.17};
+			name = "RazbulaSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 110;
+			atlOffset = 0;
+		};
+		class Item11
+		{
+			dataType = "Marker";
+			position[] = {12968.7, 0, 15457.8};
+			name = "SpawnRamir";
+			text = "Ramir";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 111;
+			atlOffset = 0;
+		};
+		class Item12
+		{
+			dataType = "Marker";
+			position[] = {12968.7, 0, 15457.8};
+			name = "RamirSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 112;
+			atlOffset = 0;
+		};
+		class Item13
+		{
+			dataType = "Marker";
+			position[] = {5757.39, 0, 17599.5};
+			name = "SpawnNefer";
+			text = "Nefer";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 113;
+			atlOffset = 0;
+		};
+		class Item14
+		{
+			dataType = "Marker";
+			position[] = {5757.39, 0, 17599.5};
+			name = "NeferSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 114;
+			atlOffset = 0;
+		};
+		class Item15
+		{
+			dataType = "Marker";
+			position[] = {12427.4, 0, 5171.94};
+			name = "SpawnShegara";
+			text = "Shegara";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 115;
+			atlOffset = 0;
+		};
+		class Item16
+		{
+			dataType = "Marker";
+			position[] = {12427.4, 0, 5171.94};
+			name = "ShegaraSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 116;
+			atlOffset = 0;
+		};
+		class Item17
+		{
+			dataType = "Marker";
+			position[] = {16250.5, 0, 20102.2};
+			name = "SpawnAfarat";
+			text = "Afarat";
+			markertype = "ELLIPSE";
+			type = "ExileSpawnZone";
+			colorname = "ColorOrange";
+			fillname = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 117;
+			atlOffset = 0;
+		};
+		class Item18
+		{
+			dataType = "Marker";
+			position[] = {16250.5, 0, 20102.2};
+			name = "AfaratSpawnIcon";
+			type = "ExileSpawnZoneIcon";
+			colorname = "ColorOrange";
+			a = 0.85000002;
+			b = 0.85000002;
+			id = 118;
+			atlOffset = 0;
+		};
+		class Item19
+		{
+			dataType = "Marker";
+			position[] = {10751.4, 0, 3337.91};
+			name = "TraderZoneKinduf";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			colorName = "ColorWEST";
+			fillname = "Border";
+			alpha = 1;
+			a = 200;
+			b = 200;
+			drawBorder = 1;
+			id = 119;
+			atlOffset = 0;
+		};
+		class Item20
+		{
+			dataType = "Marker";
+			position[] = {10751.4, 0, 3337.91};
+			name = "TraderZoneKindufIcon";
+			text = "Kinduf Airfield";
+			type = "ExileAircraftTraderIcon";
+			colorName = "ColorWEST";
+			id = 120;
+			atlOffset = 0;
+		};
+		class Item21
+		{
+			dataType = "Marker";
+			position[] = {13072.3, 0, 18554.7};
+			name = "TraderZoneKalaeNoowi";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			colorName = "ColorWEST";
+			fillname = "Border";
+			alpha = 1;
+			a = 200;
+			b = 200;
+			drawBorder = 1;
+			id = 121;
+			atlOffset = 0;
+		};
+		class Item22
+		{
+			dataType = "Marker";
+			position[] = {13072.3, 0, 18554.7};
+			name = "TraderZoneKalaeNoowiIcon";
+			text = "KalaeNoowi Airfield";
+			type = "ExileAircraftTraderIcon";
+			colorName = "ColorWEST";
+			id = 122;
+			atlOffset = 0;
+		};
+		class Item23
+		{
+			dataType = "Marker";
+			position[] = {13752.6, 0, 9316.29};
+			name = "TraderZonePuestoCrow";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			colorName = "ColorWEST";
+			fillname = "Border";
+			alpha = 1;
+			a = 200;
+			b = 200;
+			drawBorder = 1;
+			id = 123;
+			atlOffset = 0;
+		};
+		class Item24
+		{
+			dataType = "Marker";
+			position[] = {13752.6, 0, 9316.29};
+			name = "TraderZonePuestoCrowIcon";
+			text = "PuestoCrow";
+			type = "ExileTraderZoneIcon";
+			colorName = "ColorWEST";
+			id = 124;
+			atlOffset = 0;
+		};
+		class Item25
+		{
+			dataType = "Marker";
+			position[] = {6002.22, 0, 13602.6};
+			name = "TraderZoneShoran";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			colorName = "ColorWEST";
+			fillname = "Border";
+			alpha = 1;
+			a = 200;
+			b = 200;
+			drawBorder = 1;
+			id = 125;
+			atlOffset = 0;
+		};
+		class Item26
+		{
+			dataType = "Marker";
+			position[] = {6002.22, 0, 13602.6};
+			name = "TraderZoneShoranIcon";
+			text = "Shoran";
+			type = "ExileTraderZoneIcon";
+			colorName = "ColorWEST";
+			id = 126;
+			atlOffset = 0;
+		};
+		class Item27
+		{
+			dataType = "Marker";
+			position[] = {6057.375, 0, 13620};
+			name = "RemoveMapObjects1";
+			text = "Shoran Floating Rock";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 10.000000;
+			b = 10.000000;
+			id = 127;
+			atlOffset = 0;
+		};
+		class Item28
+		{
+			dataType = "Marker";
+			position[] = {6052.116, 0, 13571.94};
+			name = "RemoveMapObjects2";
+			text = "Shoran Heli Landing Site";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 25.000000;
+			b = 25.000000;
+			id = 128;
+			atlOffset = 0;
+		};
+		class Item29
+		{
+			dataType = "Marker";
+			position[] = {9992.99, 0, 1405.82};
+			name = "MixerSite1";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileConcreteMixerZone";
+			colorName = "ColorUNKNOWN";
+			fillName = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 129;
+			atlOffset = 0;
+		};
+		class Item30
+		{
+			dataType = "Marker";
+			position[] = {9992.99, 0, 1405.82};
+			name = "MixerSite1Icon";
+			text = "";
+			type = "ExileConcreteMixerZoneIcon";
+			colorName = "ColorUNKNOWN";
+			id = 130;
+			atlOffset = 0;
+		};
+		class Item31
+		{
+			dataType = "Marker";
+			position[] = {4427.87, 0, 13072.4};
+			name = "MixerSite2";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileConcreteMixerZone";
+			colorName = "ColorUNKNOWN";
+			fillName = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 131;
+			atlOffset = 0;
+		};
+		class Item32
+		{
+			dataType = "Marker";
+			position[] = {4427.87, 0, 13072.4};
+			name = "MixerSite2Icon";
+			text = "";
+			type = "ExileConcreteMixerZoneIcon";
+			colorName = "ColorUNKNOWN";
+			id = 132;
+			atlOffset = 0;
+		};
+		class Item33
+		{
+			dataType = "Marker";
+			position[] = {17709.5, 0, 17944.3};
+			name = "MixerSite3";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileConcreteMixerZone";
+			colorName = "ColorUNKNOWN";
+			fillName = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 133;
+			atlOffset = 0;
+		};
+		class Item34
+		{
+			dataType = "Marker";
+			position[] = {17709.5, 0, 17944.3};
+			name = "MixerSite3Icon";
+			text = "";
+			type = "ExileConcreteMixerZoneIcon";
+			colorName = "ColorUNKNOWN";
+			id = 134;
+			atlOffset = 0;
+		};
+		class Item35
+		{
+			dataType = "Marker";
+			position[] = {17817.9, 0, 2749.61};
+			name = "FuelStationOffar";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 135;
+			atlOffset = 0;
+		};
+		class Item36
+		{
+			dataType = "Marker";
+			position[] = {17416.5, 0, 9235.87};
+			name = "FuelStationRazbula";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 136;
+			atlOffset = 0;
+		};
+		class Item37
+		{
+			dataType = "Marker";
+			position[] = {9506.8, 0, 11673.5};
+			name = "FuelStationMikisFob";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 137;
+			atlOffset = 0;
+		};
+		class Item38
+		{
+			dataType = "Marker";
+			position[] = {6260.83, 0, 9969.28};
+			name = "FuelStationMafaraz";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 138;
+			atlOffset = 0;
+		};
+		class Item39
+		{
+			dataType = "Marker";
+			position[] = {12468, 0, 15202.9};
+			name = "FuelStationRamir";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 139;
+			atlOffset = 0;
+		};
+		class Item40
+		{
+			dataType = "Marker";
+			position[] = {8251.41, 0, 16121.8};
+			name = "FuelStationKandar";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 140;
+			atlOffset = 0;
+		};
+		class Item41
+		{
+			dataType = "Marker";
+			position[] = {6844.98, 0, 4537.97};
+			name = "FuelStationAmir";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 141;
+			atlOffset = 0;
+		};
+		class Item42
+		{
+			dataType = "Marker";
+			position[] = {2865.66, 0, 16376.3};
+			name = "FuelStationLimar";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 142;
+			atlOffset = 0;
+		};
+		class Item43
+		{
+			dataType = "Marker";
+			position[] = {18314.1, 0, 14687.8};
+			name = "FuelStationZarath";
+			text = "";
+			type = "loc_Fuelstation";
+			a = 0.64999999;
+			b = 0.64999999;
+			id = 143;
+			atlOffset = 0;
+		};
+		class Item44
+		{
+			dataType = "Marker";
+			position[] = {10670.5, 0, 2832.94};
+			name = "RemoveMapObjects3";
+			text = "Kinduf JBAD Fuel Station 1 Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 5.000000;
+			b = 5.000000;
+			id = 144;
+			atlOffset = 0;
+		};
+		class Item45
+		{
+			dataType = "Marker";
+			position[] = {10643.3, 0, 2824.37};
+			name = "RemoveMapObjects4";
+			text = "Kinduf JBAD Fuel Station 1 Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 5.000000;
+			b = 5.000000;
+			id = 145;
+			atlOffset = 0;
+		};
+		class Item46
+		{
+			dataType = "Marker";
+			position[] = {10668.1, 0, 2816.69};
+			name = "RemoveMapObjects5";
+			text = "Kinduf JBAD Fuel Station 1 Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 10.000000;
+			b = 10.000000;
+			id = 146;
+			atlOffset = 0;
+		};
+		class Item47
+		{
+			dataType = "Marker";
+			position[] = {12246.6, 0, 2590.15};
+			name = "RemoveMapObjects6";
+			text = "Kinduf JBAD Fuel Station 2 Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 8.000000;
+			b = 8.000000;
+			id = 147;
+			atlOffset = 0;
+		};
+		class Item48
+		{
+			dataType = "Marker";
+			position[] = {12259.6, 0, 2591.08};
+			name = "RemoveMapObjects7";
+			text = "Kinduf JBAD Fuel Station 2 Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 8.000000;
+			b = 8.000000;
+			id = 148;
+			atlOffset = 0;
+		};
+		class Item49
+		{
+			dataType = "Marker";
+			position[] = {12230.8, 0, 5557.31};
+			name = "RemoveMapObjects8";
+			text = "Shegara JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 10.000000;
+			b = 10.000000;
+			id = 149;
+			atlOffset = 0;
+		};
+		class Item50
+		{
+			dataType = "Marker";
+			position[] = {12240.7, 0, 5544.82};
+			name = "RemoveMapObjects9";
+			text = "Shegara JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 5.000000;
+			b = 5.000000;
+			id = 150;
+			atlOffset = 0;
+		};
+		class Item51
+		{
+			dataType = "Marker";
+			position[] = {17304.9, 0, 6226.84};
+			name = "RemoveMapObjects10";
+			text = "Arobster JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 10.000000;
+			b = 10.000000;
+			id = 151;
+			atlOffset = 0;
+		};
+		class Item52
+		{
+			dataType = "Marker";
+			position[] = {17298.1, 0, 6187.44};
+			name = "RemoveMapObjects11";
+			text = "Arobster JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 3.000000;
+			b = 3.000000;
+			id = 152;
+			atlOffset = 0;
+		};
+		class Item53
+		{
+			dataType = "Marker";
+			position[] = {17298.9, 0, 6242.58};
+			name = "RemoveMapObjects12";
+			text = "Arobster JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 3.000000;
+			b = 3.000000;
+			id = 153;
+			atlOffset = 0;
+		};
+		class Item54
+		{
+			dataType = "Marker";
+			position[] = {12967.5, 0, 17666.9};
+			name = "RemoveMapObjects13";
+			text = "KaleiNoowi JBAD Fuel Station Objects";
+			markerType = "ELLIPSE";
+			type = "ellipse";
+			alpha = 0;
+			a = 10.000000;
+			b = 10.000000;
+			id = 154;
+			atlOffset = 0;
+		};
+		class Item55
+		{
+			dataType = "Marker";
+			position[] = {20436, 0, 5038.78};
+			name = "TraderZoneSpecOps1";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileNonConstructionZone";
+			colorName = "ColorKhaki";
+			fillName = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 155;
+			atlOffset = 0;
+		};
+		class Item56
+		{
+			dataType = "Marker";
+			position[] = {20436, 0, 5038.78};
+			name = "TraderZoneSpecOps1Icon";
+			text = "";
+			type = "ExileSpecOpsTraderIcon";
+			colorName = "ColorKhaki";
+			id = 156;
+			atlOffset = 0;
+		};
+		class Item57
+		{
+			dataType = "Marker";
+			position[] = {238.919, 0, 17445.6};
+			name = "TraderZoneSpecOps2";
+			text = "Non-Construction Zone";
+			markerType = "ELLIPSE";
+			type = "ExileNonConstructionZone";
+			colorName = "ColorKhaki";
+			fillName = "Border";
+			alpha = 0;
+			a = 500;
+			b = 500;
+			drawBorder = 1;
+			id = 157;
+			atlOffset = 0;
+		};
+		class Item58
+		{
+			dataType = "Marker";
+			position[] = {238.919, 0, 17445.6};
+			name = "TraderZoneSpecOps2Icon";
+			text = "";
+			type = "ExileSpecOpsTraderIcon";
+			colorName = "ColorKhaki";
+			id = 158;
+			atlOffset = 0;
+		};
+	};
+};

@@ -1,5 +1,6 @@
 # Lythium Vanilla+ Mission Files for 1.0.3b and Arma 1.70
 Author: Kurewe
+
 Web: https://cantankerousoldgoats.enjin.com/
 
 I've put together a Vanilla+ Lythium Mission pbo for your pleasure.

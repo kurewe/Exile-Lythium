@@ -38,7 +38,9 @@ Note 2: The files I have provided for this Lythium mission (while tested and fun
    - Each trader location's NPCs are sectioned and labeled
  - exile_server_config.pbo included with JBAD and FFAA loot positions
    - Loot positions for Arma buildings and more are also included
- - Map Config included for use with DMS
+ - DMS Files
+   - Map Config included for use with DMS
+   - Occupation static mission with Lythium location
 
 Does not include: 
 - Roulette

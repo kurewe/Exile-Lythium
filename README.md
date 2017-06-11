@@ -40,7 +40,7 @@ Note 2: The files I have provided for this Lythium mission (while tested and fun
    - Loot positions for Arma buildings and more are also included
  - DMS Files
    - Map Config included for use with DMS
-   - Occupation static mission with Lythium location
+   - Occupation static mission with Lythium locations
 
 Does not include: 
 - Roulette

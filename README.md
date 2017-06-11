@@ -6,6 +6,10 @@ Web: https://cantankerousoldgoats.enjin.com/
 I've put together some Vanilla+ Lythium Mission files for your pleasure.
 Even though it isn't strictly Vanilla, I did try to keep the extras useful and easily configurable/changeable.
 
+Note 1: After updating to Arma 1.70 and Exile 1.0.3, I noticed that there seems to be some (loud) wind across the map (even during completely clear weather). This is not specific to this map, as Bohemia appears to have updated some environment sounds, making them louder. I was able to reduce the constant loud wind by creating a Lythium specific environment entry in the config.cpp. While this helped, the wind is still loud during bad weather and at higher elevations. I will be trying to further reduce the wind volume as I get time.
+
+Note 2: The files I have provided for this Lythium mission (while tested and functional on their own), were done so with the expectation that the person using them will have enough experience and knowledge to then custom configure the mission to their liking. I have no issues providing information about the mission files themselves and specific addons if I use them on my server and have configured them specifically for Lythium. Given that, my preference would be not to turn this thread into a tutorial on how to edit or configure addons, scripts, etc.
+
  - 60 player slots
  - 4 Safe Traders (which include both airports)
      - Purchased vehicles spawn safely at designated spots
@@ -35,3 +39,11 @@ Even though it isn't strictly Vanilla, I did try to keep the extras useful and e
  - exile_server_config.pbo included with JBAD and FFAA loot positions
    - Loot positions for Arma buildings and more are also included
  - Map Config included for use with DMS
+
+Does not include: 
+- Roulette
+
+Requirements:
+- Exile 1.0.3b - http://www.exilemod.com/downloads/
+- Jbad - http://steamcommunity.com/sharedfiles/filedetails/?id=520618345
+- Lythium - http://steamcommunity.com/sharedfiles/filedetails/?id=909547724

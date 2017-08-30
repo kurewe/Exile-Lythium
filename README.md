@@ -41,11 +41,12 @@ Note 2: The files I have provided for this Lythium mission (while tested and fun
  - DMS Files
    - Map Config included for use with DMS
    - Occupation static mission with Lythium locations
+ - Loot Table Fix for 1.0.3b - 1.0.3e
 
 Does not include: 
 - Roulette
 
 Requirements:
-- Exile 1.0.3b - http://www.exilemod.com/downloads/
+- Exile 1.0.3b thru 1.0.3e - http://www.exilemod.com/downloads/
 - Jbad - http://steamcommunity.com/sharedfiles/filedetails/?id=520618345
 - Lythium - http://steamcommunity.com/sharedfiles/filedetails/?id=909547724

@@ -3251,6 +3251,9 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 
+	//Loot Table Fix To Keep Compatibility Between 1.03b - 1.03e
+	ExileServer_system_lootManager_initialize = "fixes\ExileServer_system_lootManager_initialize.sqf";
+
 	//Get Dynamic Vehicles To Only Spawn Within The Lythium Map Area
 	ExileServer_world_spawnVehicles = "fixes\ExileServer_world_spawnVehicles.sqf";
 

@@ -371,6 +371,27 @@ class CraftConcreteDoorway: Exile_AbstractCraftingRecipe
 		{1, "Exile_Item_FuelCanisterFull"}
 	};
 };
+class CraftConcreteDrawbridge: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Concrete Drawbridge";
+	pictureItem = "Exile_Item_ConcreteDrawBridgeKit";
+	requiresConcreteMixer = true;
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_ConcreteDrawBridgeKit"},
+		{4, "Exile_Item_WaterCanisterEmpty"},
+		{1, "Exile_Item_FuelCanisterEmpty"}
+	};
+	components[] = 
+	{
+		{4, "Exile_Item_Cement"},
+		{4, "Exile_Item_Sand"},
+		{4, "Exile_Item_MetalPole"},
+		{3, "Exile_Item_JunkMetal"},
+		{4, "Exile_Item_WaterCanisterDirtyWater"},
+		{1, "Exile_Item_FuelCanisterFull"}
+	};
+};
 class CraftConcreteFloor: Exile_AbstractCraftingRecipe
 {
 	name = "Craft Concrete Floor";
@@ -411,6 +432,26 @@ class CraftConcreteFloorPort: Exile_AbstractCraftingRecipe
 		{1, "Exile_Item_FuelCanisterFull"}
 	};
 };
+class CraftConcreteFloorPortSmall: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Concrete Floor Port (Small)";
+	pictureItem = "Exile_Item_ConcreteFloorPortSmallKit";
+	requiresConcreteMixer = true;
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_ConcreteFloorPortSmallKit"},
+		{3, "Exile_Item_WaterCanisterEmpty"},
+		{1, "Exile_Item_FuelCanisterEmpty"}
+	};
+	components[] = 
+	{
+		{3, "Exile_Item_Cement"},
+		{2, "Exile_Item_Sand"},
+		{2, "Exile_Item_MetalPole"},
+		{3, "Exile_Item_WaterCanisterDirtyWater"},
+		{1, "Exile_Item_FuelCanisterFull"}
+	};
+};
 class CraftConcreteGate: Exile_AbstractCraftingRecipe
 {
 	name = "Craft Concrete Gate";
@@ -428,6 +469,27 @@ class CraftConcreteGate: Exile_AbstractCraftingRecipe
 		{4, "Exile_Item_Sand"},
 		{4, "Exile_Item_MetalPole"},
 		{4, "Exile_Item_WaterCanisterDirtyWater"},
+		{1, "Exile_Item_FuelCanisterFull"}
+	};
+};
+class CraftConcreteLadderHatch: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Concrete Ladder Hatch";
+	pictureItem = "Exile_Item_ConcreteLadderHatchKit";
+	requiresConcreteMixer = true;
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_ConcreteLadderHatchKit"},
+		{3, "Exile_Item_WaterCanisterEmpty"},
+		{1, "Exile_Item_FuelCanisterEmpty"}
+	};
+	components[] = 
+	{
+		{3, "Exile_Item_Cement"},
+		{2, "Exile_Item_Sand"},
+		{2, "Exile_Item_MetalPole"},
+		{3, "Exile_Item_JunkMetal"},
+		{3, "Exile_Item_WaterCanisterDirtyWater"},
 		{1, "Exile_Item_FuelCanisterFull"}
 	};
 };
@@ -586,6 +648,34 @@ class CraftMetalHedgehog: Exile_AbstractCraftingRecipe
 	};
 	tools[] = {"Exile_Item_Grinder"};
 };
+class CraftMetalLadder: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Metal Ladder";
+	pictureItem = "Exile_Item_MetalLadderKit";
+	requiredInteractionModelGroup = "WorkBench";
+	returnedItems[] =
+	{
+		{1, "Exile_Item_MetalLadderKit"}
+	};
+	components[] =
+	{
+		{6, "Exile_Item_JunkMetal"}
+	};
+};
+class CraftMetalLadderDouble: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Metal Ladder (Double Tall)";
+	pictureItem = "Exile_Item_MetalLadderDoubleKit";
+	requiredInteractionModelGroup = "WorkBench";
+	returnedItems[] =
+	{
+		{1, "Exile_Item_MetalLadderDoubleKit"}
+	};
+	components[] =
+	{
+		{2, "Exile_Item_MetalLadderKit"}
+	};
+};
 class CraftMetalPole: Exile_AbstractCraftingRecipe
 {
 	name = "Craft Metal Pole";
@@ -600,6 +690,21 @@ class CraftMetalPole: Exile_AbstractCraftingRecipe
 		{4, "Exile_Item_JunkMetal"}
 	};
 	tools[] = {"Exile_Item_Grinder"};
+};
+class CraftOldChest: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Old Chest";
+	pictureItem = "Exile_Item_OldChestKit";
+	requiredInteractionModelGroup = "WorkBench";
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_OldChestKit"}
+	};
+	components[] = 
+	{
+		{3, "Exile_Item_WoodPlank"},
+		{3, "Exile_Item_JunkMetal"}
+	};
 };
 class CraftPortableGenerator: Exile_AbstractCraftingRecipe
 {
@@ -874,6 +979,21 @@ class CraftWoodLadder: Exile_AbstractCraftingRecipe
 	components[] =
 	{
 		{6, "Exile_Item_WoodPlank"}
+	};
+};
+class CraftWoodLadderHatch: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Wood Ladder Hatch";
+	pictureItem = "Exile_Item_WoodLadderHatchKit";
+	requiredInteractionModelGroup = "WorkBench";
+	returnedItems[] =
+	{
+		{1, "Exile_Item_WoodLadderHatchKit"}
+	};
+	components[] =
+	{
+		{6, "Exile_Item_WoodPlank"},
+		{3, "Exile_Item_JunkMetal"}
 	};
 };
 class CraftWoodPlank: Exile_AbstractCraftingRecipe
@@ -2561,8 +2681,10 @@ class CfgExileArsenal
 	class arifle_CTAR_hex_F           { quality = 2; price = 450; };
 	class arifle_CTAR_ghex_F          { quality = 2; price = 450; };
 	class arifle_CTAR_GL_blk_F        { quality = 2; price = 450; };
+	class arifle_CTAR_GL_ghex_F       { quality = 2; price = 450; };
+	class arifle_CTAR_GL_hex_F        { quality = 2; price = 450; };
 	class arifle_CTARS_blk_F          { quality = 2; price = 450; };
-	class arifle_CTARS_ghex_F          { quality = 2; price = 450; };
+	class arifle_CTARS_ghex_F         { quality = 2; price = 450; };
 	class arifle_CTARS_hex_F          { quality = 2; price = 450; };
 	class arifle_SPAR_01_blk_F        { quality = 1; price = 400; };
 	class arifle_SPAR_01_khk_F        { quality = 1; price = 400; };
@@ -3251,9 +3373,6 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 
-	//Loot Table Fix To Keep Compatibility Between 1.03b - 1.03e
-	ExileServer_system_lootManager_initialize = "fixes\ExileServer_system_lootManager_initialize.sqf";
-
 	//Get Dynamic Vehicles To Only Spawn Within The Lythium Map Area
 	ExileServer_world_spawnVehicles = "fixes\ExileServer_world_spawnVehicles.sqf";
 
@@ -3534,6 +3653,59 @@ class CfgFlags
 	};
 };
 
+class CfgGrinding
+{
+	// Enables code lock grinding on the server
+	enableGrinding = 1;
+	
+	// Time it takes to grind a fresh lock in minutes
+	grindDuration = 25;
+	
+	// Percentage chance the grinding will fail
+	failChance = 25;
+	
+	// Percentage chance that failing will break your grinder (otherwise it will just remove a battery)
+	breakChance = 20;
+	
+	// Notify the entire server if someone is hacking. 1 == notify, 0 == don't notify
+	notifyServer = 1;
+	
+	// The cooldown time, in minutes, before another server side notification is sent out from a territory. This is on a per territory basis. 
+	notificationCooldown = 30;
+};
+class CfgHacking 
+{
+	// Enables safe hacking on the server
+	enableHacking = 1;
+	
+	// Time it takes to hack in minutes
+	hackDuration = 20;
+	
+	// Percentage chance the hacking will fail
+	failChance = 50;
+	
+	// Percentage chance the laptop will be removed on fail
+	removeChance = 5;
+	
+	// Max attepts to hack a safe during one restart
+	maxHackAttempts = 3;
+	
+	// Notify the entire server if someone is hacking. 1 == notify, 0 == don't notify
+	notifyServer = 1;
+	
+	// The cooldown time, in minutes, before another server side notification is sent out from a territory. This is on a per territory basis. 
+	notificationCooldown = 30;
+	
+	// The minimal amount of players on the server required in order to hack a safe (set to 0 to disable)
+	minPlayers = 1;
+	
+	// How many safe hacks are allowed to be going at one time
+	maxHacks = 5;
+	
+	// Show a map icon where the hacking is taking place
+	showMapIcon = 1;
+};
+
 class ExileAbstractAction
 {
 	title = "";
@@ -3711,7 +3883,7 @@ class CfgInteractionMenus
 	class Safe
 	{
 		targetType = 2;
-		target = "Exile_Container_Safe";
+		target = "Exile_Container_Abstract_Safe";
 
 		class Actions 
 		{
@@ -3749,6 +3921,13 @@ class CfgInteractionMenus
 				title = "Set PIN";
 				condition = "((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 0)";
 				action = "_this spawn ExileClient_object_lock_setPin";
+			};
+			
+			class HackLock: ExileAbstractAction
+			{
+				title = "Hack Lock";
+				condition = "(getNumber(missionConfigFile >> 'CfgHacking' >> 'enableHacking') isEqualTo 1) && ('Exile_Item_Laptop' in (magazines player)) && ((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo -1) && !ExilePlayerInSafezone";
+				action = "['HackLock', _this select 0] call ExileClient_action_execute";
 			};
 		};
 	};
@@ -3802,7 +3981,7 @@ class CfgInteractionMenus
 	class Drawbridge
 	{
 		targetType = 2;
-		target = "Exile_Construction_WoodDrawBridge_Abstract";
+		target = "Exile_Construction_Abstract_DrawBridge";
 
 		class Actions
 		{
@@ -3894,6 +4073,12 @@ class CfgInteractionMenus
 				action = "_this call ExileClient_object_construction_repair";
 			};
 
+			class GrindLock : ExileAbstractAction
+			{
+				title = "Grind Lock";
+				condition = "(getNumber(missionConfigFile >> 'CfgGrinding' >> 'enableGrinding') isEqualTo 1) && ('Exile_Item_Grinder' in (magazines player)) && ('Exile_Magazine_Battery' in (magazines player)) && ((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo -1) && ((ExileClientInteractionObject animationPhase 'DoorRotation') < 0.5)";
+				action = "['GrindLock', _this select 0] call ExileClient_action_execute";
+			};
 		};
 	};
 
@@ -4299,6 +4484,54 @@ class CfgPlayer
 	// 0 == default exile auto run
 	useGradientAffectedAutoRun = 0;
 };
+/*
+	This config will allow you to override the default poptab storage for vehicles and containers. 
+	The current system takes the maxLoad of a vehicle * 10, and that gives you the max poptabs that can be stored.
+	This will allow you to override that max with your own value.
+	
+	To override, just add the vehicle/containers classname to this class, and define its max. Look at Exile_Container_Safe_Small as an example.
+*/
+class CfgPoptabStorage
+{
+	class Exile_Container_Safe_Small { max = 25000; };	
+};
+class CfgSimulation
+{
+	/*
+		Use Arma built in Dynamic Simulation. 
+		If you have any issues with players unable to get into cars, control vehicles, fly planes, etc. try turning this off
+		Options:
+			0: Use Exile's built in simulation system (Same system in 1.0.3 and below)
+			1: Use Dynamic Simulation
+	*/
+	enableDynamicSimulation = 1;
+	
+	/*
+		Simulation distance settings
+		For more information:
+			https://community.bistudio.com/wiki/setDynamicSimulationDistance
+			https://community.bistudio.com/wiki/setDynamicSimulationDistanceCoef
+	*/
+	
+	// The distance, in meters, will infantry units be simulated. Default: 500m
+	groupSimulationDistance = 500;
+	
+	// The distance, in meters, will vehicles with crew be simulated. Default: 350m
+	vehicleSimulationDistance = 250;
+	
+	// The distance, in meters, will all vehicles without crew be simulated. Default: 250m
+	emptyVehicleSimulationDistance = 250;
+	
+	// The distance, in meters, will static objects be simulated. This includes anything from a small tin can to a building. Default: 50m
+	propSimulationDistance = 50;
+	
+	// Multiplies the entity activation distance by set value if the entity is moving. Default: 2
+	isMovingSimulationCoef = 2;
+};
+
+
+
+
 class CfgSlothMachine
 {
 	spinCost = 100;
@@ -4395,6 +4628,11 @@ class CfgTerritories
 
 	// Amount of pop tabs per object to pay
 	popTabAmountPerObject = 10;
+
+	// Amount of minutes building is disabled after a charge has been planted
+	// in a territory. This basically prevents people from placing tons of walls
+	// or removing walls while their territory is under attack.
+	constructionBlockDuration = 5;
 };
 class CfgTraderCategories
 {
@@ -6953,6 +7191,494 @@ class CfgVehicleTransport
 			attachPosition[] = {0.08, -0.85, 0.4};
 			cargoIndizes[] = {1, 6, 7, 9}; 
 			detachPosition[] = {0.08, -6};
+		};
+	};
+};
+class CfgVirtualGarage
+{
+	/*
+		Enable or disable virtual garage on the server
+		Options:
+			0: Disable virtual garage
+			1: Enable virtual garage
+	*/
+	enableVirtualGarage = 1;	
+	
+	/*
+		Enables or disables the ability to access virtual garage while in combat
+		Options:
+			0: Players cannot access virtual garage while they are in combat
+			1: Players can access virtual garage when they are in combat
+	*/
+	canAccessGarageInCombat = 0;
+	
+	/*
+		When enabled, this will dump any items and money from the vehicle onto the ground where the car was.
+		Options:
+			0: Do not clear inventory and money
+			1: Clear inventory and money
+	*/
+	clearInventoryOnStore = 1;
+	
+	/*
+		The maximum number of vehicles that can be stored in the VG for that territory.
+		Use -1 to disable the ability to store vehicles at that level.
+		Make sure to have the same number of levels here as you do in CfgTerritories!
+	*/
+	numberOfVehicles[] = 
+	{
+		-1,			// Level 1
+		5, 			// Level 2 
+		8, 			// Level 3
+		11, 		// Level 4
+		13, 		// Level 5
+		15, 		// Level 6
+		18, 		// Level 7
+		21, 		// Level 8
+		25, 		// Level 9
+		28 			// Level 10
+	};
+	
+	/*
+		The allowed types of vehicles that can be stored in the garage	
+		Available Types: "Car", "Tank", "Plane", "Air", "Ship", "Submarine"
+	*/
+	allowedVehicleTypes[] = {"Car","Tank","Plane","Air","Ship","Submarine"};
+};
+class CfgXM8 
+{
+	class settings
+	{
+		controlID = 4070;
+		appID = "App01";
+		title = "Settings";
+	};
+	
+	class healthScanner
+	{
+		controlID = 4120;
+		appID = "App02";
+		title = "Health Scanner";
+	};
+	
+	class slothMachine
+	{
+		controlID = 4140;
+		appID = "App03";
+		title = "Sloth Machine";
+	};
+};
+/*
+	XM8 Extra apps, the Exile way of doing it
+	
+	Here is an example app layout:
+	class XM8_App01_Button: RscExileXM8AppButton1x1
+	{
+	    textureNoShortcut = "";  	// Path to picture. This can be via mission file or client side PBO
+	    text = "";					// The name of the app to be display on the button
+	    onButtonClick = "";			// The code to fire when the app is clicked
+	    resource = "";				// The name of the resource to load for the app, leave as an empty string if you just want to run code without a GUI, like BOOM or spawning a bike
+	};
+*/
+
+class XM8_App01_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "\exile_assets\texture\ui\xm8_app_settings_ca.paa";
+    text = "Settings";
+    onButtonClick = "['settings', 0] call ExileClient_gui_xm8_slide";
+    resource = "XM8SlideSettings";
+};
+
+class XM8_App02_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "\exile_assets\texture\ui\xm8_app_health_scanner_ca.paa";
+    text = "Health Scanner";
+    onButtonClick = "['healthScanner', 0] call ExileClient_gui_xm8_slide";
+    resource = "XM8SlideHealthScanner";
+};
+
+class XM8_App03_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "\exile_assets\texture\ui\xm8_app_slothMachine_ca.paa";
+    text = "Sloth Machine";
+    onButtonClick = "['slothMachine', 0] call ExileClient_gui_xm8_slide";
+    resource = "XM8SlideSlothMachine";
+};
+
+class XM8_App04_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "\exile_assets\texture\ui\xm8_app_boom_ca.paa";
+    text = "BOOM!";
+    onButtonClick = "call ExileClient_system_breaching_detonate";
+    resource = "";
+};
+
+class XM8_App05_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App06_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App07_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App08_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App09_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App10_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App11_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App12_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App13_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+class XM8_App14_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "";
+    text = "";
+    onButtonClick = "";
+    resource = "";
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//											   BELOW IS WHERE ALL THE XM8 APP RESOURCES CAN GO
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class XM8SlideSettings: RscExileXM8Slide 
+{
+	idc = 4070;
+	class Controls 
+	{
+		class GoBackButton: RscExileXM8ButtonMenu
+		{
+			idc = 4071;
+			text = "GO BACK"; 
+			x = (30 - 3) * (0.025);
+			y = (19 - 2) * (0.04);
+			w = 6 * (0.025);
+			h = 1 * (0.04);
+			onButtonClick = "['extraApps', 1] call ExileClient_gui_xm8_slide";
+		};
+
+		class 8GDropDown: RscExileXM8Combo
+		{
+			idc = 4072;
+			x = (5 - 3) * (0.025);
+			y = (5 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onLBSelChanged = "_this call ExileClient_gui_xm8_slide_settings_event_on8GSelectionChanged";
+		};
+
+		class 8GLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Show my device in global 8G network."; 
+			x = (13 - 3) * (0.025);
+			y = (5 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+
+		class SoundDropDown: RscExileXM8Combo
+		{
+			idc = 4075;
+			x = (5 - 3) * (0.025);
+			y = (7 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onLBSelChanged = "_this call ExileClient_gui_xm8_slide_settings_event_onSoundSelectionChanged";
+		};
+
+		class SoundLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Play a beep sound on notifications."; 
+			x = (13 - 3) * (0.025);
+			y = (7 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+
+		class PartyEspDropDown: RscExileXM8Combo
+		{
+			idc = 4076;
+			x = (5 - 3) * (0.025);
+			y = (9 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onLBSelChanged = "_this call ExileClient_gui_xm8_slide_settings_event_onPartyEspSelectionChanged";
+		};
+
+		class PartyEspLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Color of 3D party icons and name tags."; 
+			x = (13 - 3) * (0.025);
+			y = (9 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+
+		class PartyEspSlider: RscExileXM8XSliderH
+		{
+			idc = 4078;
+			x = (5 - 3) * (0.025);
+			y = (11 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onSliderPosChanged = "_this call ExileClient_gui_xm8_slide_settings_event_onPartyEspSliderChanged";
+		};
+
+		class PartyEspSliderLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Opacity of 3D party icons and name tags."; 
+			x = (13 - 3) * (0.025);
+			y = (11 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+
+		class PartyMarkerSlider: RscExileXM8XSliderH
+		{
+			idc = 4079;
+			x = (5 - 3) * (0.025);
+			y = (13 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onSliderPosChanged = "_this call ExileClient_gui_xm8_slide_settings_event_onPartyMarkerSliderChanged";
+		};
+
+		class PartyMarkerSliderLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Opacity of 3D party markers."; 
+			x = (13 - 3) * (0.025);
+			y = (13 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+
+		class StreamModeDropDown: RscExileXM8Combo
+		{
+			idc = 4077;
+			x = (5 - 3) * (0.025);
+			y = (15 - 2) * (0.04);
+			w = 7 * (0.025);
+			h = 1 * (0.04);
+			onLBSelChanged = "_this call ExileClient_gui_xm8_slide_settings_event_onStreamModeSelectionChanged";
+		};
+
+		class StreamModeLabel: RscExileXM8Text
+		{
+			idc = -1;
+			text = "Masquerade PIN codes. Perfect for streamers."; 
+			x = (13 - 3) * (0.025);
+			y = (15 - 2) * (0.04);
+			w = 22 * (0.025);
+			h = 1 * (0.04);
+			shadow = 0;
+		};
+	};
+};
+
+class XM8SlideHealthScanner: RscExileXM8Slide
+{
+	idc = 4120;
+	class Controls 
+	{
+		class GoBackButton: RscExileXM8ButtonMenu
+		{
+			idc = 4122;
+			text = "GO BACK"; 
+			x = (30 - 3) * (0.025);
+			y = (19 - 2) * (0.04);
+			w = 6 * (0.025);
+			h = 1 * (0.04);
+			onButtonClick = "['extraApps', 1] call ExileClient_gui_xm8_slide";
+		};
+
+		class HealthInfoControlGroup: RscExileXM8ControlsGroupNoHScrollbars
+		{
+			idc = -1;
+			x = (5 - 3) * (0.025);
+			y = (5 - 2) * (0.04);
+			w = 30 * (0.025);
+			h = 15 * (0.04);
+			colorBackground[] = {0,0,0,0.25};
+
+			class controls
+			{
+				class HealthInfo: RscExileXM8StructuredText
+				{
+					idc = 4121;
+					x = 0;
+					y = 0;
+					w = 29 * (0.025); // minus 1!
+					h = 15 * (0.04);
+				};
+			};
+		};
+	};
+};
+
+class XM8SlideSlothMachine: RscExileXM8Slide
+{
+	idc = 4140;
+	class Controls 
+	{
+		class Background: RscExileXM8PictureKeepAspect
+		{
+			idc = -1;
+			text = "\exile_assets\texture\ui\slothMachine\xm8_slothMachineBackground.paa";
+			x = -3.1 * (0.025) + (0);
+			y = -6 * (0.04) + (0);
+			w = 40 * (0.025);
+			h = 33 * (0.04);
+		};
+		
+		class XM8SlothMachineSpinButton: RscExileXM8PictureButton
+		{
+			idc = 4141;
+			style = 0x30;
+			x = 14.3 * (0.025) + (0);
+			y = 15.9 * (0.04) + (0);
+			w = 5.7 * (0.025);
+			h = 2 * (0.04);
+			text = "\exile_assets\texture\ui\slothMachine\button_off_ca.paa";
+			action = "[] call ExileClient_gui_xm8_slide_slothMachine_event_onSpinButtonClick;";
+		};
+		
+		class GoBackButton: RscExileXM8ButtonMenu
+		{
+			idc = 4148;
+			text = "GO BACK"; 
+			x = (30 - 3) * (0.025);
+			y = (19 - 2) * (0.04);
+			w = 6 * (0.025);
+			h = 1 * (0.04);
+			sizeEx = .9 * (0.04);
+			onButtonClick = "['extraApps', 1] call ExileClient_gui_xm8_slide";
+		};
+		
+		class PopTabsLabel: RscExileXM8StructuredText
+		{
+			idc = 4142;
+			text = "<t align='center'><t color='#e14141'><img image='\exile_assets\texture\ui\poptab_inline_ca.paa' size='1' shadow='true' /></t>";
+			x = 6.5 * (0.025) + (0);
+			y = 13 * (0.04) + (0);
+			w = 6 * (0.025);
+			h = 2 * (0.04);
+		};
+		
+		class JackpotLabel: RscExileXM8StructuredText
+		{
+			idc = 4143;
+			text = "<t align='center'><t color='#e14141'></t>";
+			x = 14 * (0.025) + (0);
+			y = 13 * (0.04) + (0);
+			w = 6 * (0.025);
+			h = 2 * (0.04);
+		};
+		
+		class WinningsLabel: RscExileXM8StructuredText
+		{
+			idc = 4144;
+			text = "<t align='center'><t color='#e14141'>0</t>";
+			x = 21.5 * (0.025) + (0);
+			y = 13 * (0.04) + (0);
+			w = 6 * (0.025);
+			h = 2 * (0.04);
+		};
+		
+		class Symbol01: RscExileXM8PictureKeepAspect
+		{
+			idc = 4145;
+			text = "";
+			x = 6.55 * (0.025) + (0);
+			y = 4 * (0.04) + (0);
+			w = 5.83 * (0.025);
+			h = 5 * (0.04);
+		};
+		
+		class Symbol02: RscExileXM8PictureKeepAspect
+		{
+			idc = 4146;
+			text = "";
+			x = 14.1 * (0.025) + (0);
+			y = 4 * (0.04) + (0);
+			w = 5.83 * (0.025);
+			h = 5 * (0.04);
+		};
+		
+		class Symbol03: RscExileXM8PictureKeepAspect
+		{
+			idc = 4147;
+			text = "";
+			x = 21.6 * (0.025) + (0);
+			y = 4 * (0.04) + (0);
+			w = 5.83 * (0.025);
+			h = 5 * (0.04);
 		};
 	};
 };

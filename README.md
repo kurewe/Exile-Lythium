@@ -1,7 +1,5 @@
-# Lythium Vanilla+ Mission Files for 1.0.3b and Arma 1.70
+# Lythium Vanilla+ Mission Files for 1.0.4 and Arma 1.78
 Author: Kurewe
-
-Web: https://cantankerousoldgoats.enjin.com/
 
 I've put together some Vanilla+ Lythium Mission files for your pleasure.
 Even though it isn't strictly Vanilla, I did try to keep the extras useful and easily configurable/changeable.
@@ -41,12 +39,11 @@ Note 2: The files I have provided for this Lythium mission (while tested and fun
  - DMS Files
    - Map Config included for use with DMS
    - Occupation static mission with Lythium locations
- - Loot Table Fix for 1.0.3b - 1.0.3e
 
 Does not include: 
 - Roulette
 
 Requirements:
-- Exile 1.0.3b thru 1.0.3e - http://www.exilemod.com/downloads/
+- Exile 1.0.4a - http://www.exilemod.com/downloads/
 - Jbad - http://steamcommunity.com/sharedfiles/filedetails/?id=520618345
 - Lythium - http://steamcommunity.com/sharedfiles/filedetails/?id=909547724
